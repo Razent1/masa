@@ -69,6 +69,8 @@ void bank(int week)
 		case 7:
 			printf("В субботу банк не работает");
 			break;
+		default:
+			printf("Error");
 	}
 }
 
@@ -88,7 +90,7 @@ void bank2(int week)
 	}
 	else
 	{
-		printf("Банк не работает");
+		printf("Введите коректный номер недели");
 	}
 	}
 
